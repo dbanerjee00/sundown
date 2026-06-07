@@ -166,3 +166,53 @@ position:absolute;
     }
     
 }
+
+#page2{
+    height:100vw;
+    width: 100%;
+    background-color:#EEEAE2 ;
+    padding: 8vw 0;
+
+}
+#moving-text{
+    overflow-x: auto;
+    white-space: nowrap;
+    
+    }
+#moving-text::-webkit-scrollbar{
+       display: none;
+}
+.con{
+    white-space: nowrap;
+    display: inline-block;
+    animation-name:move;
+    animation-duration:10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+   
+}
+#moving-text h1{
+    font-size: 9vw;
+    
+    display: inline-block;
+
+  
+
+}
+#gola{
+    height:70px;
+    width: 70px;
+ border-radius: 50%;
+ background-color: #FE350B;
+ display: inline-block;
+ margin:1vw 2vw;
+
+}
+@keyframes move{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
