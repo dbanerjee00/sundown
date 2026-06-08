@@ -80,7 +80,7 @@ position: relative;
     color: white;
 }
 #center{
-    height:65vh;
+    height:78vh;
     width: 100%;
     display: flex;
     padding-bottom: 2.5vw ;
@@ -113,7 +113,7 @@ position: relative;
     height:36vw;
 
     right: 0;
-    top: 68vh;
+    top: 80vh;
     
 
 }
